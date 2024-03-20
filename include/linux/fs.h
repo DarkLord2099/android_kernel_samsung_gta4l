@@ -188,8 +188,6 @@ typedef int (dio_iodone_t)(struct kiocb *iocb, loff_t offset,
 #define ATTR_MTIME	(1 << 5)
 #define ATTR_CTIME	(1 << 6)
 #define ATTR_ATIME_SET	(1 << 7)
-+/* kiocb is a read or write operation submitted by fs/aio.c. */
-+#define IOCB_AIO_RW    (1 << 23)
 #define ATTR_MTIME_SET	(1 << 8)
 #define ATTR_FORCE	(1 << 9) /* Not a change, but a change it */
 #define ATTR_KILL_SUID	(1 << 11)
