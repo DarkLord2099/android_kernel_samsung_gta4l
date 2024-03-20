@@ -41,7 +41,7 @@
 /* Local Definitions and Declarations */
 
 enum {
-	IFLA_RMNET_DFC_QOS = __IFLA_RMNET_MAX,
+	IFLA_RMNET_DFC_QOS = IFLA_RMNET_MAX,
 	IFLA_RMNET_UL_AGG_PARAMS,
 	__IFLA_RMNET_EXT_MAX,
 };
